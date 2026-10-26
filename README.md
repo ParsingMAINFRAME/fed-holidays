@@ -1,5 +1,8 @@
 # Federal Reserve holidays, 2000 to 2040
 
+[![Refresh data](https://github.com/ParsingMAINFRAME/fed-holidays/actions/workflows/update.yml/badge.svg)](https://github.com/ParsingMAINFRAME/fed-holidays/actions/workflows/update.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Every day the Federal Reserve Banks are closed, as JSON, CSV and iCalendar. On these days FedACH and Fedwire don't settle, so this is the list that matters for ACH effective dates, wire value dates, payroll deadlines and most US bank business day logic.
 
 ## Not the same as US federal holidays
@@ -57,4 +60,4 @@ A GitHub Action refreshes the files on the 1st of each month from the Bankday AP
 
 ## License
 
-Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit "Bankday (bankday.dev)". Code: MIT.
+MIT, for both the data and the code. A link back to [Bankday](https://bankday.dev) is appreciated but not required.
